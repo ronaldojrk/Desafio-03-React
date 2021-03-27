@@ -1,1 +1,58 @@
 // TODO
+.container {
+  max-width:1120px;
+  margin: 3rem auto;
+  padding: 0 5rem;
+  img {
+    margin-bottom: 3rem;
+  }
+
+
+  button {
+    font-weight:600;
+    font-size:1.125rem;
+    margin-top: 3rem;
+    color: var(--pink-100);
+    border:0;
+    background-color:transparent;
+  }
+}
+
+.posts{
+  a{
+    line-height:2rem;
+    strong{
+      font-weight: bold;
+      font-size:1.75rem;
+      color:var(--white-200);
+
+    }
+    >p{
+      font-weight:400;
+      font-size:1.125rem;
+      color: var(--gray-100);
+    }
+    div{
+      display:flex;
+      time {
+        font-weight:400;
+        font-size:0.875rem;
+        color: var(--gray-200);
+
+      }
+      p{
+        font-weight:400;
+        font-size:0.875rem;
+        margin-left: 1rem;
+        color: var(--gray-200);
+
+      }
+      span{
+        margin-right: 0.5rem;
+      }
+
+    }
+
+  }
+
+}
