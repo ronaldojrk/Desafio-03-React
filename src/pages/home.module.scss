@@ -3,6 +3,8 @@
   max-width:1120px;
   margin: 3rem auto;
   padding: 0 5rem;
+  line-height:2rem;
+  padding-top:2rem;
   img {
     margin-bottom: 3rem;
   }
@@ -15,13 +17,24 @@
     color: var(--pink-100);
     border:0;
     background-color:transparent;
+
+  }
+  .buttonull{
+    color: var(--white-200);
   }
 }
 
 .posts{
   a{
+    display:block;
     line-height:2rem;
+
+    & + a {
+      margin-top:1rem;
+      padding-top:1rem;
+    }
     strong{
+      display: block;
       font-weight: bold;
       font-size:1.75rem;
       color:var(--white-200);
