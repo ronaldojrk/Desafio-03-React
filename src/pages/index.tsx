@@ -77,7 +77,12 @@ export default function Home({ postsPagination }: HomeProps) {
 
   }
   /*console.log(postsPagination);
-  console.log(postsPagination.results);*/
+  console.log(postsPagination.results);
+
+    /* {console.log(posts)}
+        {console.log(next)}
+
+  */
 
 
 
@@ -87,8 +92,7 @@ export default function Home({ postsPagination }: HomeProps) {
       <main className={styles.container}>
 
         <img src="/images/logo.svg" alt="logo" />
-        {console.log(posts)}
-        {console.log(next)}
+
         <div className={styles.posts}>
           {posts.map(post => (
             <Link key={post.uid} href={`/post/${post.uid}`}>

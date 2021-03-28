@@ -41,8 +41,8 @@ export default function Post({ post }: PostProps) {
   const time = Math.ceil(total / 200)
   const router = useRouter()
 
-  console.log("o isFallback")
-  console.log(router.isFallback)
+  // console.log("o isFallback")
+  //console.log(router.isFallback)
   //console.log(post.data)
   //console.log(JSON.stringify(post.data.banner.url, null, 2))
   if (router.isFallback == true) {
@@ -117,7 +117,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
       }
     };
   });
-  console.log(uidPosts);
+  //console.log(uidPosts);
   return {
     paths: uidPosts,
     fallback: true,
